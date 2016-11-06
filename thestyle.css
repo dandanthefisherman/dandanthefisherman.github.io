@@ -1,13 +1,12 @@
 body { 
-    background:('acdcback.jpg);
-    
+    background:url:('acdcback.jpg);
     }
   
   
   p {
   text-align:center;
   color:red;
-  border: 1px solid black;  
+  border:1px solid black;  
   }
   
   #menu li {
