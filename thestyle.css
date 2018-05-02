@@ -14,24 +14,34 @@ background-attachment: fixed;
      font-size:33px;  
            
      } 
-           #menu li{ 
-        
-           
-     font-family: Arial;
-          display: inline; 
-     text-align: center; 
-       font-size:40px; 
-       } 
-     #menu { 
-          
-       margin:0; 
-       padding:0; 
-       overflow:hidden;
-      background-color: black; 
-    word-spacing: 22px; 
-           font-size:26px;
-     font-color:white;   
-    } 
+      ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: red;
+}
+
       
   #youtube { 
    text-align:center; 
