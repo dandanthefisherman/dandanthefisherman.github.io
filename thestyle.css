@@ -49,6 +49,6 @@ li a:hover:not(.active) {
  display: inline;
  border: 1px solid black; 
 } 
-h1 {
+p {
     text-align: center;
 }
