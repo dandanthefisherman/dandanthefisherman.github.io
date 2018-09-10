@@ -1,0 +1,41 @@
+/*!
+ * Start Bootstrap - Thumbnail Gallery (https://startbootstrap.com/template-overviews/thumbnail-gallery)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-thumbnail-gallery/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  background-image:url('crop13.jpg');}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+  
+
+  
+ .zoom {      
+-webkit-transition: all 0.35s ease-in-out;    
+-moz-transition: all 0.35s ease-in-out;    
+transition: all 0.35s ease-in-out;     
+cursor: -webkit-zoom-in;      
+cursor: -moz-zoom-in;      
+cursor: zoom-in;  
+}     
+
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+/**adjust scale to desired size, 
+add browser prefixes**/
+-ms-transform: scale(1.1);    
+-moz-transform: scale(1.1);  
+-webkit-transform: scale(1.1);  
+-o-transform: scale(1.1);  
+transform: scale(1.1);    
+position:relative;      
+z-index:100;  
+}
+}
+}
